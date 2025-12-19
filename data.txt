@@ -1,0 +1,17 @@
+Node.js streams make it easy to process large amounts of data efficiently.
+
+In this example, we are using a pipeline to:
+1. Read data from a file
+2. Compress the data using gzip
+3. Write the compressed data to a new file
+
+The pipeline method helps handle errors automatically
+and makes the code cleaner and easier to understand.
+
+After running the compression script,
+a new file with the extension .gz will be created.
+
+This demonstrates how Node.js can handle file compression
+using streams and core modules only.
+
+End of data file.

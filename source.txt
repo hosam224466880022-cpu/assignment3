@@ -1,0 +1,12 @@
+This is the source file.
+It is used to demonstrate how readable and writable streams work in Node.js.
+
+When this file is copied using streams,
+its content will be transferred chunk by chunk
+from source.txt to dest.txt.
+
+If the operation is successful,
+dest.txt will contain the exact same text
+as this source file.
+
+End of source file.

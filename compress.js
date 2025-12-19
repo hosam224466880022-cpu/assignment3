@@ -1,0 +1,16 @@
+const fs = require('fs');
+const zlib = require('zlib');
+const { pipeline } = require('stream');
+
+pipeline(
+  fs.createReadStream('./data.txt'),
+  zlib.createGzip(),
+  fs.createWriteStream('./data.txt.gz'),
+  (err) => {
+    if (err) {
+      console.error('Pipeline failed', err);
+    } else {
+      console.log('File compressed successfully');
+    }
+  }
+);

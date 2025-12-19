@@ -1,0 +1,20 @@
+Node.js is a powerful JavaScript runtime built on Chrome's V8 engine.
+It is designed to build scalable network applications.
+
+Streams in Node.js allow you to work with large amounts of data efficiently.
+Instead of reading the whole file at once, data is processed in small chunks.
+
+This makes streams very useful for handling big files such as videos, logs,
+or large text files without consuming too much memory.
+
+Readable streams are used to read data.
+Writable streams are used to write data.
+Transform streams can modify data while it is being passed.
+
+Learning streams is an important part of mastering Node.js backend development.
+They are widely used in real-world applications and production systems.
+
+This file is intentionally long to demonstrate how Node.js reads data in chunks.
+Each chunk will be logged separately in the terminal when using streams.
+
+End of the big text file.
